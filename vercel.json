@@ -1,36 +1,36 @@
 ﻿{
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/"
+      "source": "/",
+      "destination": "/"
     },
     {
-      "src": "/posts",
-      "dest": "/"
+      "source": "/posts",
+      "destination": "/"
     },
     {
-      "src": "/posts/:id",
-      "dest": "/"
+      "source": "/posts/:id",
+      "destination": "/"
     },
     {
-      "src": "/posts/create",
-      "dest": "/"
+      "source": "/posts/create",
+      "destination": "/"
     },
     {
-      "src": "/register",
-      "dest": "/"
+      "source": "/register",
+      "destination": "/"
     },
     {
-      "src": "/login",
-      "dest": "/"
+      "source": "/login",
+      "destination": "/"
     },
     {
-      "src": "/verification",
-      "dest": "/"
+      "source": "/verification",
+      "destination": "/"
     },
     {
-      "src": "/*",
-      "dest": "/"
+      "source": "/*",
+      "destination": "/"
     }
   ]
 }
