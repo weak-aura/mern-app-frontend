@@ -19,7 +19,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path={"/"} element={<Main/>}>
     <Route path={"/"} element={<Layout/>}>
       <Route index element={<Home/>}/>
-      <Route path={"/posts/"} element={<AllPosts/>}/>
+      <Route path={"/posts"} element={<AllPosts/>}/>
       <Route path={"/posts/:id"} element={<OnePost/>}/>
       <Route path={"/posts/create"} element={<CreatePost/>}/>
     </Route>

@@ -1,0 +1,36 @@
+﻿{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/posts",
+      "dest": "/"
+    },
+    {
+      "src": "/posts/:id",
+      "dest": "/"
+    },
+    {
+      "src": "/posts/create",
+      "dest": "/"
+    },
+    {
+      "src": "/register",
+      "dest": "/"
+    },
+    {
+      "src": "/login",
+      "dest": "/"
+    },
+    {
+      "src": "/verification",
+      "dest": "/"
+    },
+    {
+      "src": "/*",
+      "dest": "/"
+    }
+  ]
+}
