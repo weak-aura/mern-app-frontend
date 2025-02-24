@@ -1,5 +1,6 @@
-﻿import {ButtonComponentProps} from "../../../../types/buttonType.ts";
+﻿
 import styles from "./OutlineButton.module.scss";
+import {ButtonComponentProps} from "../../Button/ui/Button.tsx";
 
 
 export const OutlineButton = (props: ButtonComponentProps) => {

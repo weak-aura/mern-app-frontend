@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import styles from "./Button.module.scss";
 
-interface ButtonComponentProps {
+export interface ButtonComponentProps {
   children: React.ReactNode;
   type?: "button" | "submit" | "reset" | undefined,
   onClick?:  React.MouseEventHandler<HTMLButtonElement> | undefined
