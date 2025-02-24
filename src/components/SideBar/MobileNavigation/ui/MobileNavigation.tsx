@@ -4,7 +4,7 @@
 export const MobileNavigation = () => {
   return (
     <div>
-      mobile navigation
+      mobile navigations
     </div>
   );
 };
